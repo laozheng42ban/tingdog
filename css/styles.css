@@ -1,0 +1,295 @@
+body {
+  font-family: 'Montserrat-Black';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Montserrat-Bold;
+}
+/********************* Navigation Bar *********************/
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download-Button */
+.download-button {
+  margin: 5% 2% 5% 0;
+}
+
+/********************** title *********************/
+#title {
+  background-color: #ff4c68;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 6%;
+}
+
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+/* Title Image */
+.title-img {
+  width: 55%;
+  transform: rotate(30deg);
+  right: 25%;
+  position: absolute;
+
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+/* fab */
+.fab {
+  padding-right: 0.5rem;
+}
+
+
+
+/********************* Features ****************/
+#features {
+  font-family: "Montserrat-bold";
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 1.rem;
+  background-color: #fff;
+  position: relative;
+
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#features i {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+/********************  Testimonial Section ****************/
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin: 0 15% 5%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/******************* Press Section *************************/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 15px;
+}
+
+/******************** Pricing Section **********************/
+
+#pricing {
+  padding: 7% 15%
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+a{
+    text-decoration:none;
+}
+.section-title h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+}
+.section-title h2 {
+	font-size: 32px;
+	text-transform: capitalize;
+	margin: 15px 0;
+	display: inline-block;
+	position: relative;
+	font-weight: 700;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.section-title p {
+	font-weight: 300;
+	font-size: 14px;
+}
+.black-bg .section-title h2, .black-bg .section-title h4, .black-bg .section-title p {
+  color:#fff
+}
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 1px;
+  background-color: #777;
+  bottom: 0;
+  left: 50%;
+  margin-left: -75px;
+}
+.section-title h2:after {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: #e16038;
+  border: darkblue;
+  bottom: -1px;
+  left: 50%;
+  margin-left: -40px;
+}
+.section-title {
+  margin-bottom: 70px;
+}
+.single-price {
+	text-align: center;
+	padding: 30px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.price-title h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.price-tag {
+  margin: 30px 0;
+}
+.price-tag {
+	margin: 30px 0;
+	background-color: #fafafa;
+	color: #000;
+	padding: 10px 0;
+}
+.center.price-tag {
+	background-color: tomato;
+	color:#fff
+}
+.price-tag h2 {
+	font-size: 45px;
+	font-weight: 600;
+	font-family: poppins;
+}
+.price-tag h2 span {
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+.price-item ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.price-item ul li {
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #eee;
+  margin: 5px 0;
+}
+.price-item ul li:last-child {
+  border-bottom: 0;
+}
+.single-price a {
+  margin-top: 15px;
+}
+a.box-btn {
+	background-color: tomato;
+	padding: 5px 20px;
+	display: inline-block;
+	color: #fff;
+	text-transform: capitalize;
+	border-radius: 3px;
+	font-size: 15px;
+	transition: .3s;
+}
+a.box-btn:hover, a.border-btn:hover {
+	background-color: #d35400;
+}
+
+/*************** Call to Action *****************/
+
+#cta {
+  background-color: #ff4c68;
+  font-family: Montserrat-Black;
+  text-align: center;
+  padding: 4% 13% 4%;
+  line-height: 1.5;
+}
+h3 {
+  color:#fff;
+  padding: 5% 15% 3%;
+  font-size: 2rem;
+}
+
+
+/******************* Footer *********************/
+#footer {
+  padding:5% 15%;
+  text-align:center;
+}
+#footer .fab {
+  margin:3% 0.5%;
+}
+#footer p {
+  color: #777;
+}
